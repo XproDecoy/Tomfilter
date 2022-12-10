@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '3566507'))
 API_HASH = environ.get('API_HASH', '194e4ba8b6787e11274f47ae63eb56ba')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5048328047:AAGwqjP64bzU3mVYBMlb8KihfS_ddXlicw4")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5772565331:AAGDZByvsrYJ9kEDUyDxFXdm33oOkIuBujg")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -38,7 +38,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001720888155'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'greymatters_bots_discussion')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'vipmoviezhelp')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
@@ -74,7 +74,7 @@ if SELF_DELETE == "True":
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/How_to_Download_From_Search_Bot/2"
+DOWNLOAD_TEXT_URL = "https://t.me/xdecoy"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "Subscribe"
